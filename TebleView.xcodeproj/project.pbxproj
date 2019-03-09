@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		520D756D223353E9008743B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520D756C223353E9008743B3 /* AppDelegate.swift */; };
+		520D756F223353E9008743B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520D756E223353E9008743B3 /* ViewController.swift */; };
+		520D7572223353E9008743B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 520D7570223353E9008743B3 /* Main.storyboard */; };
+		520D7574223353EA008743B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 520D7573223353EA008743B3 /* Assets.xcassets */; };
+		520D7577223353EA008743B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 520D7575223353EA008743B3 /* LaunchScreen.storyboard */; };
+		520D7582223353EA008743B3 /* TebleViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520D7581223353EA008743B3 /* TebleViewTests.swift */; };
+		520D758D223353EA008743B3 /* TebleViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520D758C223353EA008743B3 /* TebleViewUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		520D757E223353EA008743B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 520D7561223353E9008743B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 520D7568223353E9008743B3;
+			remoteInfo = TebleView;
+		};
+		520D7589223353EA008743B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 520D7561223353E9008743B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 520D7568223353E9008743B3;
+			remoteInfo = TebleView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		520D7569223353E9008743B3 /* TebleView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TebleView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		520D756C223353E9008743B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		520D756E223353E9008743B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		520D7571223353E9008743B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		520D7573223353EA008743B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		520D7576223353EA008743B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		520D7578223353EA008743B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		520D757D223353EA008743B3 /* TebleViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TebleViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		520D7581223353EA008743B3 /* TebleViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TebleViewTests.swift; sourceTree = "<group>"; };
+		520D7583223353EA008743B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		520D7588223353EA008743B3 /* TebleViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TebleViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		520D758C223353EA008743B3 /* TebleViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TebleViewUITests.swift; sourceTree = "<group>"; };
+		520D758E223353EA008743B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		520D7566223353E9008743B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		520D757A223353EA008743B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		520D7585223353EA008743B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		520D7560223353E9008743B3 = {
+			isa = PBXGroup;
+			children = (
+				520D756B223353E9008743B3 /* TebleView */,
+				520D7580223353EA008743B3 /* TebleViewTests */,
+				520D758B223353EA008743B3 /* TebleViewUITests */,
+				520D756A223353E9008743B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		520D756A223353E9008743B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				520D7569223353E9008743B3 /* TebleView.app */,
+				520D757D223353EA008743B3 /* TebleViewTests.xctest */,
+				520D7588223353EA008743B3 /* TebleViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		520D756B223353E9008743B3 /* TebleView */ = {
+			isa = PBXGroup;
+			children = (
+				520D756C223353E9008743B3 /* AppDelegate.swift */,
+				520D756E223353E9008743B3 /* ViewController.swift */,
+				520D7570223353E9008743B3 /* Main.storyboard */,
+				520D7573223353EA008743B3 /* Assets.xcassets */,
+				520D7575223353EA008743B3 /* LaunchScreen.storyboard */,
+				520D7578223353EA008743B3 /* Info.plist */,
+			);
+			path = TebleView;
+			sourceTree = "<group>";
+		};
+		520D7580223353EA008743B3 /* TebleViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				520D7581223353EA008743B3 /* TebleViewTests.swift */,
+				520D7583223353EA008743B3 /* Info.plist */,
+			);
+			path = TebleViewTests;
+			sourceTree = "<group>";
+		};
+		520D758B223353EA008743B3 /* TebleViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				520D758C223353EA008743B3 /* TebleViewUITests.swift */,
+				520D758E223353EA008743B3 /* Info.plist */,
+			);
+			path = TebleViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		520D7568223353E9008743B3 /* TebleView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 520D7591223353EA008743B3 /* Build configuration list for PBXNativeTarget "TebleView" */;
+			buildPhases = (
+				520D7565223353E9008743B3 /* Sources */,
+				520D7566223353E9008743B3 /* Frameworks */,
+				520D7567223353E9008743B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TebleView;
+			productName = TebleView;
+			productReference = 520D7569223353E9008743B3 /* TebleView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		520D757C223353EA008743B3 /* TebleViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 520D7594223353EA008743B3 /* Build configuration list for PBXNativeTarget "TebleViewTests" */;
+			buildPhases = (
+				520D7579223353EA008743B3 /* Sources */,
+				520D757A223353EA008743B3 /* Frameworks */,
+				520D757B223353EA008743B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				520D757F223353EA008743B3 /* PBXTargetDependency */,
+			);
+			name = TebleViewTests;
+			productName = TebleViewTests;
+			productReference = 520D757D223353EA008743B3 /* TebleViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		520D7587223353EA008743B3 /* TebleViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 520D7597223353EA008743B3 /* Build configuration list for PBXNativeTarget "TebleViewUITests" */;
+			buildPhases = (
+				520D7584223353EA008743B3 /* Sources */,
+				520D7585223353EA008743B3 /* Frameworks */,
+				520D7586223353EA008743B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				520D758A223353EA008743B3 /* PBXTargetDependency */,
+			);
+			name = TebleViewUITests;
+			productName = TebleViewUITests;
+			productReference = 520D7588223353EA008743B3 /* TebleViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		520D7561223353E9008743B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "CarlosRamírezGómez";
+				TargetAttributes = {
+					520D7568223353E9008743B3 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					520D757C223353EA008743B3 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 520D7568223353E9008743B3;
+					};
+					520D7587223353EA008743B3 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 520D7568223353E9008743B3;
+					};
+				};
+			};
+			buildConfigurationList = 520D7564223353E9008743B3 /* Build configuration list for PBXProject "TebleView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 520D7560223353E9008743B3;
+			productRefGroup = 520D756A223353E9008743B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				520D7568223353E9008743B3 /* TebleView */,
+				520D757C223353EA008743B3 /* TebleViewTests */,
+				520D7587223353EA008743B3 /* TebleViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		520D7567223353E9008743B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				520D7577223353EA008743B3 /* LaunchScreen.storyboard in Resources */,
+				520D7574223353EA008743B3 /* Assets.xcassets in Resources */,
+				520D7572223353E9008743B3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		520D757B223353EA008743B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		520D7586223353EA008743B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		520D7565223353E9008743B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				520D756F223353E9008743B3 /* ViewController.swift in Sources */,
+				520D756D223353E9008743B3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		520D7579223353EA008743B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				520D7582223353EA008743B3 /* TebleViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		520D7584223353EA008743B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				520D758D223353EA008743B3 /* TebleViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		520D757F223353EA008743B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 520D7568223353E9008743B3 /* TebleView */;
+			targetProxy = 520D757E223353EA008743B3 /* PBXContainerItemProxy */;
+		};
+		520D758A223353EA008743B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 520D7568223353E9008743B3 /* TebleView */;
+			targetProxy = 520D7589223353EA008743B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		520D7570223353E9008743B3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				520D7571223353E9008743B3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		520D7575223353EA008743B3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				520D7576223353EA008743B3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		520D758F223353EA008743B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		520D7590223353EA008743B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		520D7592223353EA008743B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z727HR5G3U;
+				INFOPLIST_FILE = TebleView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TebleView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		520D7593223353EA008743B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z727HR5G3U;
+				INFOPLIST_FILE = TebleView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TebleView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		520D7595223353EA008743B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z727HR5G3U;
+				INFOPLIST_FILE = TebleViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TebleViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TebleView.app/TebleView";
+			};
+			name = Debug;
+		};
+		520D7596223353EA008743B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z727HR5G3U;
+				INFOPLIST_FILE = TebleViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TebleViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TebleView.app/TebleView";
+			};
+			name = Release;
+		};
+		520D7598223353EA008743B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z727HR5G3U;
+				INFOPLIST_FILE = TebleViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TebleViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TebleView;
+			};
+			name = Debug;
+		};
+		520D7599223353EA008743B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z727HR5G3U;
+				INFOPLIST_FILE = TebleViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TebleViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TebleView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		520D7564223353E9008743B3 /* Build configuration list for PBXProject "TebleView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				520D758F223353EA008743B3 /* Debug */,
+				520D7590223353EA008743B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		520D7591223353EA008743B3 /* Build configuration list for PBXNativeTarget "TebleView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				520D7592223353EA008743B3 /* Debug */,
+				520D7593223353EA008743B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		520D7594223353EA008743B3 /* Build configuration list for PBXNativeTarget "TebleViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				520D7595223353EA008743B3 /* Debug */,
+				520D7596223353EA008743B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		520D7597223353EA008743B3 /* Build configuration list for PBXNativeTarget "TebleViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				520D7598223353EA008743B3 /* Debug */,
+				520D7599223353EA008743B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 520D7561223353E9008743B3 /* Project object */;
+}
