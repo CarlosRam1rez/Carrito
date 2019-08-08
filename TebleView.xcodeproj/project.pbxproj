@@ -14,6 +14,8 @@
 		520D7577223353EA008743B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 520D7575223353EA008743B3 /* LaunchScreen.storyboard */; };
 		520D7582223353EA008743B3 /* TebleViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520D7581223353EA008743B3 /* TebleViewTests.swift */; };
 		520D758D223353EA008743B3 /* TebleViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520D758C223353EA008743B3 /* TebleViewUITests.swift */; };
+		520D759B22335882008743B3 /* CeldaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520D759A22335882008743B3 /* CeldaTableViewCell.swift */; };
+		520E0E8E22343AD10042CC3B /* DescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520E0E8D22343AD10042CC3B /* DescriptionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		520D7588223353EA008743B3 /* TebleViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TebleViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		520D758C223353EA008743B3 /* TebleViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TebleViewUITests.swift; sourceTree = "<group>"; };
 		520D758E223353EA008743B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		520D759A22335882008743B3 /* CeldaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaTableViewCell.swift; sourceTree = "<group>"; };
+		520E0E8D22343AD10042CC3B /* DescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +103,9 @@
 			children = (
 				520D756C223353E9008743B3 /* AppDelegate.swift */,
 				520D756E223353E9008743B3 /* ViewController.swift */,
+				520E0E8D22343AD10042CC3B /* DescriptionViewController.swift */,
 				520D7570223353E9008743B3 /* Main.storyboard */,
+				520D759A22335882008743B3 /* CeldaTableViewCell.swift */,
 				520D7573223353EA008743B3 /* Assets.xcassets */,
 				520D7575223353EA008743B3 /* LaunchScreen.storyboard */,
 				520D7578223353EA008743B3 /* Info.plist */,
@@ -257,6 +263,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				520D756F223353E9008743B3 /* ViewController.swift in Sources */,
+				520E0E8E22343AD10042CC3B /* DescriptionViewController.swift in Sources */,
+				520D759B22335882008743B3 /* CeldaTableViewCell.swift in Sources */,
 				520D756D223353E9008743B3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
